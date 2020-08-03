@@ -700,10 +700,5 @@ a[title="mail"]:hover {
 #notification {
   background: rgb(7, 231, 19);
   color: #fff;
-  text-align: center;
-  transition: 0.8s;
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -ms-transition: 0.8s;
-  -o-transition: 0.8s;
+  text-align: center;  
 }
