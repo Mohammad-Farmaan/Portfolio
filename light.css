@@ -92,7 +92,7 @@
   justify-content: center;
   align-items: center;
   height: 290px;
-  margin-top: 24vh;
+  margin-top: 20vh;
 }
 .main-content img {
   height: 120px;
@@ -700,5 +700,5 @@ a[title="mail"]:hover {
 #notification {
   background: rgb(7, 231, 19);
   color: #fff;
-  text-align: center;  
+  text-align: center;
 }
