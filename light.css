@@ -516,7 +516,9 @@ a[title="mail"]:hover {
   .dark-mode {
     margin-right: 1.4%;
   }
-
+  .main-content {
+    margin-top: 23vh;
+  }
   .entry-text-container {
     width: 60%;
   }
