@@ -691,9 +691,4 @@ a[title="mail"]:hover {
   background: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
   text-align: center;
-  transition: 0.8s;
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -ms-transition: 0.8s;
-  -o-transition: 0.8s;
 }
