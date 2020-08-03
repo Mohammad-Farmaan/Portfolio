@@ -59,7 +59,7 @@
 /* *Nav Styling* */
 .nav {
   width: 98%;
-  background-image: url(svgs/space.svg);
+  background-image: url(SVGs/space.svg);
   background-size: cover;
   align-items: left;
   display: none;
