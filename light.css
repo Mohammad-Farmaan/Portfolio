@@ -1,6 +1,5 @@
 /* *Google Fonts* */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 /* *Global Properties* */
 * {
   box-sizing: border-box;
@@ -8,24 +7,69 @@
   padding: 0;
   scroll-behavior: smooth;
   font-weight: 300;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
 }
-
+body {
+  transition: 0.7s all;
+}
 /* *Section-1 Styling* */
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-left: 2px rgb(255, 0, 0) solid;
+  justify-content: center;
   height: 100vh;
   width: 100%;
-  transition: 0.8s;
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -ms-transition: 0.8s;
-  -o-transition: 0.8s;
+  transition: 0.7s all;
+  background-color: #fff;
 }
-.mobile-nav {
+.section-1 img {
+  max-width: 40%;
+  height: auto;
+}
+.section-1 h1 {
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  margin-top: 40px;
+  font-size: 3em;
+}
+.section-1 a {
+  padding: 8px 13px 8px 13px;
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+@media (max-width: 640px) {
+  .section-1 {
+    height: 90vh;
+  }
+  .dark-mode {
+    width: 20px;
+    float: right;
+    margin: 17px;
+    cursor: pointer;
+  }
+  .section-1 img {
+    max-width: 70%;
+  }
+  .section-1 h1 {
+    font-size: 1.77em;
+  }
+}
+@media (min-width: 700px) {
+  .dark-mode {
+    width: 20px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .section-1 img {
+    max-width: 60%;
+  }
+}
+/* .mobile-nav {
   display: flex;
   align-items: center;
   height: 60px;
@@ -56,7 +100,7 @@
   margin-right: 1%;
 }
 /* *Nav Styling* */
-.nav {
+/* .nav {
   width: 98%;
   background-image: url(Images/lines.jpg);
   background-size: cover;
@@ -127,11 +171,11 @@
   box-shadow: 0px 2.5px 2.5px 0px rgb(168, 168, 168);
 }
 .main-button a:hover {
-  box-shadow: 0px 5.5px 5.5px 0px rgb(168, 168, 168);
-}
+  box-shadow: 0px 5.5px 5.5px 0px rgb(168, 168, 168); */
+/* } */
 
 /* *Section-2 Styling* */
-.section-2 {
+/* .section-2 {
   align-items: center;
   display: flex;
   border-left: 2px rgb(0, 81, 255) solid;
@@ -184,9 +228,9 @@
 }
 .work-card:hover {
   box-shadow: 0px 10px 10px 0px rgb(201, 201, 201);
-}
+} */
 /* *Section-3 Styling* */
-.section-3 {
+/* .section-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,7 +272,7 @@
 }
 
 /* *Section-4 Styling* */
-.section-4 {
+/* .section-4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,7 +477,7 @@
   background-color: rgb(219, 18, 18);
 }
 /* *Section-5 Styling* */
-.section-5 {
+/* .section-5 {
   background-image: url(svgs/Coding_SVG.svg);
   background-repeat: no-repeat;
   background-position: right;
@@ -510,9 +554,9 @@ a[title="mail"]:hover {
   background-color: rgb(44, 42, 42);
   color: rgb(255, 255, 255);
   box-shadow: 0px 6px 6px 0px rgb(165, 165, 165);
-}
+} */
 /* *Media Queries for Desktop * */
-@media (min-width: 1224px) {
+/* @media (min-width: 1224px) {
   .dark-mode {
     margin-right: 1.4%;
   }
@@ -578,10 +622,11 @@ a[title="mail"]:hover {
   .connect h1 {
     font-size: 1.8em;
   }
-}
+} */
 /* *Media Query for Mobiles* */
-@media (max-width: 640px) {
-  .entry-text-container {
+/* @media (max-width: 640px) { */
+
+/* .entry-text-container {
     width: 90%;
   }
   .project-1 {
@@ -599,10 +644,10 @@ a[title="mail"]:hover {
   }
   .section-5 {
     background-image: none;
-  }
-}
+  } */
+/* } */
 /* *Media Query For Mobiles: Landscape* */
-@media (max-width: 850px) and (orientation: landscape) {
+/* @media (max-width: 850px) and (orientation: landscape) {
   .section-1 {
     height: 130vh;
   }
@@ -627,7 +672,7 @@ a[title="mail"]:hover {
   .about-info {
     margin-left: 2%;
   }
-}
+} */
 /* @media (min-width: 766px) and (max-width: 1024px) {
   .main-content {
     width: 50%;
@@ -653,7 +698,7 @@ a[title="mail"]:hover {
   }
 } */
 /* *Media query for iPhone 5/5s* */
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
   .main-content {
     margin-top: 20vh;
   }
@@ -703,4 +748,4 @@ a[title="mail"]:hover {
   background: rgb(7, 231, 19);
   color: #fff;
   text-align: center;
-}
+} */

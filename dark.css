@@ -1,6 +1,5 @@
 /* *Google Fonts* */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 /* *Global Properties* */
 * {
   box-sizing: border-box;
@@ -8,25 +7,71 @@
   padding: 0;
   scroll-behavior: smooth;
   font-weight: 300;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
 }
-
+body {
+  transition: 0.7s all;
+  background-color: #242424;
+}
 /* *Section-1 Styling* */
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-left: 2px rgb(255, 0, 0) solid;
+  justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: #000000;
-  transition: 0.8s;
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -ms-transition: 0.8s;
-  -o-transition: 0.8s;
+  transition: 0.7s all;
+  background-color: #242424;
 }
-.mobile-nav {
+.section-1 img {
+  max-width: 40%;
+  height: auto;
+}
+.section-1 h1 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  font-size: 3em;
+}
+.section-1 a {
+  padding: 8px 13px 8px 13px;
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+@media (max-width: 640px) {
+  .section-1 {
+    height: 90vh;
+  }
+  .dark-mode {
+    width: 20px;
+    float: right;
+    margin: 17px;
+    cursor: pointer;
+  }
+  .section-1 img {
+    max-width: 70%;
+  }
+  .section-1 h1 {
+    font-size: 1.77em;
+  }
+}
+@media (min-width: 700px) {
+  .dark-mode {
+    width: 20px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .section-1 img {
+    max-width: 60%;
+  }
+}
+
+/* .mobile-nav {
   display: flex;
   align-items: center;
   height: 60px;
@@ -55,9 +100,9 @@
   font-size: 1.5em;
   cursor: pointer;
   margin-right: 1%;
-}
+} */
 /* *Nav Styling* */
-.nav {
+/* .nav {
   width: 98%;
   background-image: url(SVGs/space.svg);
   background-size: cover;
@@ -130,7 +175,7 @@
 }
 
 /* *Section-2 Styling* */
-.section-2 {
+/* .section-2 {
   align-items: center;
   display: flex;
   border-left: 2px rgb(0, 255, 234) solid;
@@ -179,10 +224,10 @@
   margin: 1%;
   position: relative;
   left: 1%;
-}
+} */
 
 /* *Section-3 Styling* */
-.section-3 {
+/* .section-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,10 +267,10 @@
 .skills-container img:nth-child(5) {
   height: 80px;
   width: 80px;
-}
+} */
 
 /* *Section-4 Styling* */
-.section-4 {
+/* .section-4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,7 +469,7 @@
   background-color: rgb(255, 0, 0);
 }
 /* *Section-5 Styling* */
-.section-5 {
+/* .section-5 {
   background-image: url(svgs/Coding_SVG.svg);
   background-repeat: no-repeat;
   background-position: right;
@@ -501,9 +546,9 @@ a[title="mail"] {
 a[title="mail"]:hover {
   background-color: rgb(61, 255, 2);
   color: rgb(255, 255, 255);
-}
+}  */
 /* *Media Queries for Desktop * */
-@media (min-width: 1224px) {
+/* @media (min-width: 1224px) {
   .dark-mode {
     margin-right: 1.4%;
   }
@@ -569,9 +614,9 @@ a[title="mail"]:hover {
   .connect h1 {
     font-size: 1.8em;
   }
-}
+} */
 /* *Media Query for Mobiles* */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .entry-text-container {
     width: 90%;
   }
@@ -591,9 +636,9 @@ a[title="mail"]:hover {
   .section-5 {
     background-image: none;
   }
-}
+} */
 /* *Media Query For Mobiles: Landscape* */
-@media (max-width: 850px) and (orientation: landscape) {
+/* @media (max-width: 850px) and (orientation: landscape) {
   .section-1 {
     height: 130vh;
   }
@@ -618,7 +663,7 @@ a[title="mail"]:hover {
   .about-info {
     margin-left: 2%;
   }
-}
+} */
 /* @media (min-width: 766px) and (max-width: 1024px) {
   .main-content {
     width: 50%;
@@ -644,7 +689,7 @@ a[title="mail"]:hover {
   }
 } */
 /* *Media query for iPhone 5/5s* */
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
   .main-content {
     margin-top: 20vh;
   }
@@ -693,4 +738,4 @@ a[title="mail"]:hover {
   background: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
   text-align: center;
-}
+} */
