@@ -67,7 +67,10 @@ body {
     cursor: pointer;
   }
   .section-1 img {
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .section-1 a {
+    margin-top: 15px;
   }
 }
 
