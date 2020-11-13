@@ -39,7 +39,7 @@ body {
   background-color: rgb(63, 63, 63);
   color: #fff;
   border-radius: 4px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 @media (max-width: 640px) {
   .section-1 {
